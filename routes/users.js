@@ -1,6 +1,6 @@
-var express = require('express');
+const express = require('express');
 const { getUsers, createUser, getUserByEmail, updateUser, getUserOrders } = require('../user/userController');
-var router = express.Router();
+const router = express.Router();
 
 router.get('/user', getUsers);
 router.get('/user/:email', getUserByEmail);
