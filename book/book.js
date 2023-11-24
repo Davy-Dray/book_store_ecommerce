@@ -8,6 +8,4 @@ class Book {
         this.author = author;
     }
 }
-
 module.exports = Book;
-
